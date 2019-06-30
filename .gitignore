@@ -1,12 +1,14 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+.serverless/
 
-# Test binary, build with `go test -c`
-*.test
+*/bin/**
+*/obj/**
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+.idea/
+
+*.iml
+*.ipr
+
+target/
+.settings/
+.project
+.classpath
