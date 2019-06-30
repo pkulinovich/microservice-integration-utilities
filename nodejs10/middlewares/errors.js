@@ -1,4 +1,4 @@
-const AppError = require('../errors/appError');
+const AppError = require('../errors/AppError');
 
 /**
  * Error handler.

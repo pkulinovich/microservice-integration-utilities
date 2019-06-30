@@ -1,7 +1,7 @@
 {
   "name": "utils",
   "version": "1.0.0",
-  "description": "utils",
+  "description": "NodeJS Utils",
   "repository": "http://github.com/iPaulK/microservice-integration-utilities/",
   "main": "app.js",
   "scripts": {
@@ -17,8 +17,6 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "node-expat": "^2.3.18",
-    "node-gyp": "^5.0.1",
     "serverless-http": "^2.0.2",
     "xml2json": "^0.11.2"
   }
