@@ -1,0 +1,12 @@
+config:
+  target: 'https://shd8fiqw5c.execute-api.us-east-1.amazonaws.com/dev/xml2json'
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      num: 1
+scenarios:
+  - flow:
+      - post:
+          url: "/"
+          json:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><hello>world</hello>"

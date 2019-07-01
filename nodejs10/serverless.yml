@@ -25,6 +25,6 @@ functions:
       - http: #Define an HTTP endpoin that respond to any routes
           path: /{proxy+}
           timeout: '30'
-          memory: '128'
+          memory: '1024'
           method: ANY
           cors: true

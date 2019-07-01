@@ -1,0 +1,12 @@
+config:
+  target: 'https://edkoru14la.execute-api.us-east-1.amazonaws.com/dev/xmltojson'
+  phases:
+    - duration: 60
+      arrivalRate: 50
+      num: 1
+scenarios:
+  - flow:
+      - post:
+          url: "/"
+          form:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><hello>world</hello>"

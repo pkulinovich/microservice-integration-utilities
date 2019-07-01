@@ -23,5 +23,5 @@ functions:
       - http:
           timeout: '30'
           path: xml2json
-          memory: '128'
+          memory: '1024'
           method: post
