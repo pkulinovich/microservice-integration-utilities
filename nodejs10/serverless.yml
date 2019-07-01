@@ -19,7 +19,7 @@ functions:
       - http: #Define an HTTP endpoint that respond to the / route
           path: /
           timeout: '30'
-          memory: '128'
+          memory: '1024'
           method: ANY #Define the HTTP methods to be used (GET/POST)
           cors: true
       - http: #Define an HTTP endpoin that respond to any routes
